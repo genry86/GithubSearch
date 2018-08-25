@@ -32,6 +32,7 @@
 		BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180121316A4A00551918 /* UISearchBar+Extension.swift */; };
 		BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180321316A7500551918 /* UITableView+Extension.swift */; };
 		BB08180621316A9A00551918 /* BadgeSegmentControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */; };
+		BB08180821316AE600551918 /* RepoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180721316AE600551918 /* RepoService.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		BB08180121316A4A00551918 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
 		BB08180321316A7500551918 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BadgeSegmentControl+Extension.swift"; sourceTree = "<group>"; };
+		BB08180721316AE600551918 /* RepoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 		BB0817AE2131625000551918 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BB08180721316AE600551918 /* RepoService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */,
 				BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */,
 				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
+				BB08180821316AE600551918 /* RepoService.swift in Sources */,
 				BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
 				BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */,
