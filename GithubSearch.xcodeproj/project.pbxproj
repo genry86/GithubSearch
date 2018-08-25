@@ -28,6 +28,7 @@
 		BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817F9213169A800551918 /* UILabel+Extension.swift */; };
 		BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */; };
 		BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FD213169F200551918 /* UIImageView+Extension.swift */; };
+		BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FF21316A1B00551918 /* UITextView+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		BB0817F9213169A800551918 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FD213169F200551918 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		BB0817FF21316A1B00551918 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				BB0817F9213169A800551918 /* UILabel+Extension.swift */,
 				BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */,
 				BB0817FD213169F200551918 /* UIImageView+Extension.swift */,
+				BB0817FF21316A1B00551918 /* UITextView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				BB0817F82131698900551918 /* UIView+Extension.swift in Sources */,
 				BB0817F02131690400551918 /* Constants.swift in Sources */,
 				BB0817CF213166AE00551918 /* ViewModel.swift in Sources */,
+				BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */,
 				BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */,
 				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
 				BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */,
