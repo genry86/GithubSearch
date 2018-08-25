@@ -21,6 +21,7 @@
 		BB0817CF213166AE00551918 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817CC213166AE00551918 /* ViewModel.swift */; };
 		BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817CD213166AE00551918 /* ReactiveTableViewCell.swift */; };
 		BB0817F02131690400551918 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817EF2131690400551918 /* Constants.swift */; };
+		BB0817F22131693A00551918 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817F12131693A00551918 /* String+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		BB0817CC213166AE00551918 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		BB0817CD213166AE00551918 /* ReactiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveTableViewCell.swift; sourceTree = "<group>"; };
 		BB0817EF2131690400551918 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB0817F12131693A00551918 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		BB0817A6213161FF00551918 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BB0817F12131693A00551918 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				BB0817F02131690400551918 /* Constants.swift in Sources */,
 				BB0817CF213166AE00551918 /* ViewModel.swift in Sources */,
 				BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */,
+				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
