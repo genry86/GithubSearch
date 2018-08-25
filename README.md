@@ -52,3 +52,8 @@ iPhone
 * __AppDelegate__ - Used as holder of main global __services__
 
 * __Navigation__ - class. Used to encapsulate navigation logic based on type of ViewModels
+
+
+![Repo List](img/trends.png?raw=true "Repos")
+
+![RDetails](img/details.png?raw=true "Repos")
