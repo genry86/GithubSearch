@@ -11,6 +11,11 @@
 		BB08179A21315D8500551918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB08179921315D8500551918 /* Assets.xcassets */; };
 		BB0817A5213160CA00551918 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0817A4213160CA00551918 /* Launch Screen.storyboard */; };
 		BB0817B52131644E00551918 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0817B72131644E00551918 /* Localizable.strings */; };
+		BB0817BE213165CF00551918 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817B9213165CE00551918 /* ViewModelProtocol.swift */; };
+		BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BA213165CE00551918 /* ViewModelServicesDelegate.swift */; };
+		BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BB213165CF00551918 /* ReposServiceProtocol.swift */; };
+		BB0817C1213165CF00551918 /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BC213165CF00551918 /* NavigationProtocol.swift */; };
+		BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BD213165CF00551918 /* ViewModelServicesProtocol.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +30,11 @@
 		BB0817A4213160CA00551918 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BB0817B62131644E00551918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BB0817B82131645700551918 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BB0817B9213165CE00551918 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		BB0817BA213165CE00551918 /* ViewModelServicesDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelServicesDelegate.swift; sourceTree = "<group>"; };
+		BB0817BB213165CF00551918 /* ReposServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposServiceProtocol.swift; sourceTree = "<group>"; };
+		BB0817BC213165CF00551918 /* NavigationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationProtocol.swift; sourceTree = "<group>"; };
+		BB0817BD213165CF00551918 /* ViewModelServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelServicesProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +180,11 @@
 		BB0817B02131626200551918 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				BB0817BC213165CF00551918 /* NavigationProtocol.swift */,
+				BB0817BB213165CF00551918 /* ReposServiceProtocol.swift */,
+				BB0817B9213165CE00551918 /* ViewModelProtocol.swift */,
+				BB0817BA213165CE00551918 /* ViewModelServicesDelegate.swift */,
+				BB0817BD213165CF00551918 /* ViewModelServicesProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -301,7 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
+				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
+				BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */,
+				BB0817BE213165CF00551918 /* ViewModelProtocol.swift in Sources */,
 				BB08179321315D8100551918 /* AppDelegate.swift in Sources */,
+				BB0817C1213165CF00551918 /* NavigationProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GithubSearch/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = TrainTask.GithubSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -458,7 +481,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GithubSearch/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = TrainTask.GithubSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
