@@ -1,0 +1,44 @@
+PODS:
+  - BadgeSegmentControl (2.0):
+    - BadgeSwift (~> 5.0)
+  - BadgeSwift (5.0.1)
+  - ionicons (2.1.1)
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - SnapKit (4.0.0)
+  - UIColor_Hex_Swift (4.0.2)
+
+DEPENDENCIES:
+  - BadgeSegmentControl
+  - ionicons
+  - ReactiveCocoa (~> 7.0)
+  - SnapKit (~> 4.0)
+  - UIColor_Hex_Swift (~> 4.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BadgeSegmentControl
+    - BadgeSwift
+    - ionicons
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+    - SnapKit
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  BadgeSegmentControl: eb845e3e53785d066737dc460e97b5fc9a1f81df
+  BadgeSwift: 3defa56f504bfb46f2300122c4a565ec9e405c1e
+  ionicons: 630bcd2c2970741c3359e3a35ad544e71d3c086b
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
+
+PODFILE CHECKSUM: d3dad3a802da552d7e8bfce230dc6f8d19da58b4
+
+COCOAPODS: 1.5.3
