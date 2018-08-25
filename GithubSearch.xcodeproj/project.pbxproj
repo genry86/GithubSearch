@@ -29,6 +29,7 @@
 		BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */; };
 		BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FD213169F200551918 /* UIImageView+Extension.swift */; };
 		BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FF21316A1B00551918 /* UITextView+Extension.swift */; };
+		BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180121316A4A00551918 /* UISearchBar+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FD213169F200551918 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FF21316A1B00551918 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		BB08180121316A4A00551918 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */,
 				BB0817FD213169F200551918 /* UIImageView+Extension.swift */,
 				BB0817FF21316A1B00551918 /* UITextView+Extension.swift */,
+				BB08180121316A4A00551918 /* UISearchBar+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
 				BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
+				BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */,
 				BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */,
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
 				BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */,
