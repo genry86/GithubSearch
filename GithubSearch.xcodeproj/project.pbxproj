@@ -30,6 +30,7 @@
 		BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FD213169F200551918 /* UIImageView+Extension.swift */; };
 		BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FF21316A1B00551918 /* UITextView+Extension.swift */; };
 		BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180121316A4A00551918 /* UISearchBar+Extension.swift */; };
+		BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180321316A7500551918 /* UITableView+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		BB0817FD213169F200551918 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FF21316A1B00551918 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		BB08180121316A4A00551918 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		BB08180321316A7500551918 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				BB0817FD213169F200551918 /* UIImageView+Extension.swift */,
 				BB0817FF21316A1B00551918 /* UITextView+Extension.swift */,
 				BB08180121316A4A00551918 /* UISearchBar+Extension.swift */,
+				BB08180321316A7500551918 /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			files = (
 				BB0817F42131695200551918 /* Data+Extension.swift in Sources */,
 				BB0817F62131696900551918 /* URLRequest+Extension.swift in Sources */,
+				BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */,
 				BB0817C42131663700551918 /* Repo.swift in Sources */,
 				BB0817F82131698900551918 /* UIView+Extension.swift in Sources */,
 				BB0817F02131690400551918 /* Constants.swift in Sources */,
