@@ -34,6 +34,9 @@
 		BB08180621316A9A00551918 /* BadgeSegmentControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */; };
 		BB08180821316AE600551918 /* RepoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180721316AE600551918 /* RepoService.swift */; };
 		BB08180A21316B0C00551918 /* ViewModelServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180921316B0C00551918 /* ViewModelServices.swift */; };
+		BB08180E21316B5E00551918 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180B21316B5E00551918 /* DetailsViewModel.swift */; };
+		BB08180F21316B5E00551918 /* ReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180C21316B5E00551918 /* ReposViewModel.swift */; };
+		BB08181021316B5E00551918 /* RepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180D21316B5E00551918 /* RepoCellViewModel.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,9 @@
 		BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BadgeSegmentControl+Extension.swift"; sourceTree = "<group>"; };
 		BB08180721316AE600551918 /* RepoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoService.swift; sourceTree = "<group>"; };
 		BB08180921316B0C00551918 /* ViewModelServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelServices.swift; sourceTree = "<group>"; };
+		BB08180B21316B5E00551918 /* DetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		BB08180C21316B5E00551918 /* ReposViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewModel.swift; sourceTree = "<group>"; };
+		BB08180D21316B5E00551918 /* RepoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,9 @@
 		BB0817AC2131623F00551918 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BB08180B21316B5E00551918 /* DetailsViewModel.swift */,
+				BB08180D21316B5E00551918 /* RepoCellViewModel.swift */,
+				BB08180C21316B5E00551918 /* ReposViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -372,6 +381,7 @@
 			files = (
 				BB0817F42131695200551918 /* Data+Extension.swift in Sources */,
 				BB0817F62131696900551918 /* URLRequest+Extension.swift in Sources */,
+				BB08180F21316B5E00551918 /* ReposViewModel.swift in Sources */,
 				BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */,
 				BB0817C42131663700551918 /* Repo.swift in Sources */,
 				BB0817F82131698900551918 /* UIView+Extension.swift in Sources */,
@@ -382,10 +392,12 @@
 				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
 				BB08180821316AE600551918 /* RepoService.swift in Sources */,
 				BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */,
+				BB08180E21316B5E00551918 /* DetailsViewModel.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
 				BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */,
 				BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */,
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
+				BB08181021316B5E00551918 /* RepoCellViewModel.swift in Sources */,
 				BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
 				BB08180A21316B0C00551918 /* ViewModelServices.swift in Sources */,
