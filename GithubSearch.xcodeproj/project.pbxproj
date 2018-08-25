@@ -16,6 +16,7 @@
 		BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BB213165CF00551918 /* ReposServiceProtocol.swift */; };
 		BB0817C1213165CF00551918 /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BC213165CF00551918 /* NavigationProtocol.swift */; };
 		BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817BD213165CF00551918 /* ViewModelServicesProtocol.swift */; };
+		BB0817C42131663700551918 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817C32131663700551918 /* Repo.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		BB0817BB213165CF00551918 /* ReposServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposServiceProtocol.swift; sourceTree = "<group>"; };
 		BB0817BC213165CF00551918 /* NavigationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationProtocol.swift; sourceTree = "<group>"; };
 		BB0817BD213165CF00551918 /* ViewModelServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelServicesProtocol.swift; sourceTree = "<group>"; };
+		BB0817C32131663700551918 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		BB0817AD2131624800551918 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BB0817C32131663700551918 /* Repo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0817C42131663700551918 /* Repo.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
 				BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */,
