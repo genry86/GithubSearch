@@ -38,6 +38,7 @@
 		BB08180F21316B5E00551918 /* ReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180C21316B5E00551918 /* ReposViewModel.swift */; };
 		BB08181021316B5E00551918 /* RepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180D21316B5E00551918 /* RepoCellViewModel.swift */; };
 		BB08181221316BCB00551918 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181121316BCB00551918 /* RepoTableViewCell.swift */; };
+		BB08181421316C0400551918 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181321316C0400551918 /* DetailsView.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		BB08180C21316B5E00551918 /* ReposViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewModel.swift; sourceTree = "<group>"; };
 		BB08180D21316B5E00551918 /* RepoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCellViewModel.swift; sourceTree = "<group>"; };
 		BB08181121316BCB00551918 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		BB08181321316C0400551918 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		BB0817A92131622100551918 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BB08181321316C0400551918 /* DetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				BB0817F42131695200551918 /* Data+Extension.swift in Sources */,
 				BB0817F62131696900551918 /* URLRequest+Extension.swift in Sources */,
 				BB08180F21316B5E00551918 /* ReposViewModel.swift in Sources */,
+				BB08181421316C0400551918 /* DetailsView.swift in Sources */,
 				BB08181221316BCB00551918 /* RepoTableViewCell.swift in Sources */,
 				BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */,
 				BB0817C42131663700551918 /* Repo.swift in Sources */,
