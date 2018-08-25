@@ -39,6 +39,8 @@
 		BB08181021316B5E00551918 /* RepoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180D21316B5E00551918 /* RepoCellViewModel.swift */; };
 		BB08181221316BCB00551918 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181121316BCB00551918 /* RepoTableViewCell.swift */; };
 		BB08181421316C0400551918 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181321316C0400551918 /* DetailsView.swift */; };
+		BB08181721316C3D00551918 /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181521316C3D00551918 /* ReposViewController.swift */; };
+		BB08181821316C3D00551918 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181621316C3D00551918 /* DetailsViewController.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		BB08180D21316B5E00551918 /* RepoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCellViewModel.swift; sourceTree = "<group>"; };
 		BB08181121316BCB00551918 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		BB08181321316C0400551918 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		BB08181521316C3D00551918 /* ReposViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
+		BB08181621316C3D00551918 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 		BB0817AA2131622A00551918 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BB08181621316C3D00551918 /* DetailsViewController.swift */,
+				BB08181521316C3D00551918 /* ReposViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 				BB0817CF213166AE00551918 /* ViewModel.swift in Sources */,
 				BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */,
 				BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */,
+				BB08181721316C3D00551918 /* ReposViewController.swift in Sources */,
 				BB0817F22131693A00551918 /* String+Extension.swift in Sources */,
 				BB08180821316AE600551918 /* RepoService.swift in Sources */,
 				BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */,
@@ -406,6 +413,7 @@
 				BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */,
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
 				BB08181021316B5E00551918 /* RepoCellViewModel.swift in Sources */,
+				BB08181821316C3D00551918 /* DetailsViewController.swift in Sources */,
 				BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
 				BB08180A21316B0C00551918 /* ViewModelServices.swift in Sources */,
