@@ -31,6 +31,7 @@
 		BB08180021316A1B00551918 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FF21316A1B00551918 /* UITextView+Extension.swift */; };
 		BB08180221316A4A00551918 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180121316A4A00551918 /* UISearchBar+Extension.swift */; };
 		BB08180421316A7500551918 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180321316A7500551918 /* UITableView+Extension.swift */; };
+		BB08180621316A9A00551918 /* BadgeSegmentControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		BB0817FF21316A1B00551918 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		BB08180121316A4A00551918 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
 		BB08180321316A7500551918 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BadgeSegmentControl+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				BB0817FF21316A1B00551918 /* UITextView+Extension.swift */,
 				BB08180121316A4A00551918 /* UISearchBar+Extension.swift */,
 				BB08180321316A7500551918 /* UITableView+Extension.swift */,
+				BB08180521316A9900551918 /* BadgeSegmentControl+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
 				BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
+				BB08180621316A9A00551918 /* BadgeSegmentControl+Extension.swift in Sources */,
 				BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */,
 				BB0817BE213165CF00551918 /* ViewModelProtocol.swift in Sources */,
 				BB08179321315D8100551918 /* AppDelegate.swift in Sources */,
