@@ -27,6 +27,7 @@
 		BB0817F82131698900551918 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817F72131698900551918 /* UIView+Extension.swift */; };
 		BB0817FA213169A800551918 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817F9213169A800551918 /* UILabel+Extension.swift */; };
 		BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */; };
+		BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817FD213169F200551918 /* UIImageView+Extension.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		BB0817F72131698900551918 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BB0817F9213169A800551918 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension.swift"; sourceTree = "<group>"; };
+		BB0817FD213169F200551918 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				BB0817F72131698900551918 /* UIView+Extension.swift */,
 				BB0817F9213169A800551918 /* UILabel+Extension.swift */,
 				BB0817FB213169C200551918 /* UIActivityIndicatorView+Extension.swift */,
+				BB0817FD213169F200551918 /* UIImageView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
 				BB0817FC213169C200551918 /* UIActivityIndicatorView+Extension.swift in Sources */,
 				BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */,
+				BB0817FE213169F200551918 /* UIImageView+Extension.swift in Sources */,
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
 				BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */,
 				BB0817BE213165CF00551918 /* ViewModelProtocol.swift in Sources */,
