@@ -41,6 +41,7 @@
 		BB08181421316C0400551918 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181321316C0400551918 /* DetailsView.swift */; };
 		BB08181721316C3D00551918 /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181521316C3D00551918 /* ReposViewController.swift */; };
 		BB08181821316C3D00551918 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181621316C3D00551918 /* DetailsViewController.swift */; };
+		BB08181A21316C7A00551918 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08181921316C7A00551918 /* Navigation.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		BB08181321316C0400551918 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		BB08181521316C3D00551918 /* ReposViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
 		BB08181621316C3D00551918 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BB08181921316C7A00551918 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				BB0817B72131644E00551918 /* Localizable.strings */,
 				BB08179221315D8100551918 /* AppDelegate.swift */,
 				BB0817EF2131690400551918 /* Constants.swift */,
+				BB08181921316C7A00551918 /* Navigation.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				BB0817BF213165CF00551918 /* ViewModelServicesDelegate.swift in Sources */,
 				BB08180A21316B0C00551918 /* ViewModelServices.swift in Sources */,
 				BB08180621316A9A00551918 /* BadgeSegmentControl+Extension.swift in Sources */,
+				BB08181A21316C7A00551918 /* Navigation.swift in Sources */,
 				BB0817C0213165CF00551918 /* ReposServiceProtocol.swift in Sources */,
 				BB0817BE213165CF00551918 /* ViewModelProtocol.swift in Sources */,
 				BB08179321315D8100551918 /* AppDelegate.swift in Sources */,
