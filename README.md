@@ -54,6 +54,8 @@ iPhone
 * __Navigation__ - class. Used to encapsulate navigation logic based on type of ViewModels
 
 
-![Repo List](img/trends.png?raw=true "Repos")
-
-![RDetails](img/details.png?raw=true "Repos")
+ 
+ 
+ <img src="img/trends.png" width="400" alt="Repos"/>
+ 
+ <img src="img/details.png" width="400" alt="Details"/>
