@@ -20,6 +20,7 @@
 		BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817CB213166AE00551918 /* ReactiveViewController.swift */; };
 		BB0817CF213166AE00551918 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817CC213166AE00551918 /* ViewModel.swift */; };
 		BB0817D0213166AE00551918 /* ReactiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817CD213166AE00551918 /* ReactiveTableViewCell.swift */; };
+		BB0817F02131690400551918 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0817EF2131690400551918 /* Constants.swift */; };
 		CB1530C855E738F19754AAD7 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E6C9C48F38310FAB6FAF3 /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		BB0817CB213166AE00551918 /* ReactiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveViewController.swift; sourceTree = "<group>"; };
 		BB0817CC213166AE00551918 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		BB0817CD213166AE00551918 /* ReactiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveTableViewCell.swift; sourceTree = "<group>"; };
+		BB0817EF2131690400551918 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +119,10 @@
 		BB0817A72131620D00551918 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BB08179221315D8100551918 /* AppDelegate.swift */,
 				BB08179E21315D8500551918 /* Info.plist */,
 				BB0817B72131644E00551918 /* Localizable.strings */,
+				BB08179221315D8100551918 /* AppDelegate.swift */,
+				BB0817EF2131690400551918 /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0817C42131663700551918 /* Repo.swift in Sources */,
+				BB0817F02131690400551918 /* Constants.swift in Sources */,
 				BB0817CF213166AE00551918 /* ViewModel.swift in Sources */,
 				BB0817CE213166AE00551918 /* ReactiveViewController.swift in Sources */,
 				BB0817C2213165CF00551918 /* ViewModelServicesProtocol.swift in Sources */,
